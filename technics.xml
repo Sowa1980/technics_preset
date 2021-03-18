@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="Панкратов Александр Владимирович Sowa1980 https://www.openstreetmap.org/user/Sowa1980"
+  link="https://wiki.openstreetmap.org/wiki/RU:Key:start_date https://wiki.openstreetmap.org/wiki/RU:Key:opening_date https://wiki.openstreetmap.org/wiki/RU:Key:check_date https://wiki.openstreetmap.org/wiki/RU:Key:building:architecture https://wiki.openstreetmap.org/wiki/RU%3AKey%3Abuilding%3Acondition"
+  icon="technique.svg"
+  
+  description="Serves for the introduction of monuments to mechanical engineering"
+  shortdescription="Monuments of mechanical engineering"
+  
+  ru.description="Служит для внесения памятников машиностроения"
+  ru.shortdescription="Памятники машиностроения"
+  
+  be.description="Служыць для ўнясення помнікаў машынабудавання"
+  be.shortdescription="Помнікі машынабудавання"
+  
+  uk.description="Служить для внесення пам'ятників машинобудування"
+  uk.shortdescription="пам'ятники машинобудування"
+  
+  de.description="Dient zur Einführung von Denkmälern in den Maschinenbau"
+  de.shortdescription="Denkmäler des Maschinenbaus"
+  
+  fr.description="Sert à l'introduction de monuments à la construction mécanique"
+  fr.shortdescription="Monuments de génie mécanique"
+  
+  
+  version="0.1_2021-03.19">
+                    
+ <group name="Monuments" ru.name="Памятники" be.name="Помнікі" uk.name="пам'ятники" de.name="Monumente" fr.name="Les monuments" >
+    <item name="Monument to mechanical engineering" ru.name="Памятник машиностроения" uk.name="пам'ятник машинобудування" de.name="Denkmal für den Maschinenbau" fr.name="Monuments de génie mécanique" preset_name_label="true" type="node,multipolygon,relation,relation types" icon="technique.svg">
+	  <space/>
+	  <check key="tourism" value="attraction" ru.text="Достопримечательность" be.text="Славутасць" uk.text="Достопримечательность" de.text="Sicht" fr.text="Vue"/>
+	  <check key="mechanism" value="yes" ru.text="Техника - да" be.text="Тэхніка" uk.text="Техніка - так" de.name="Technik - ja" fr.name="Technique - oui"/>
+	  <combo key="historic" text="Историческая техника" ru.text="Историческая техника" be.text="Гістарычная тэхніка" uk.text="історична техніка" de.text="Historische Technik" fr.text="Technique historique" match="key">
+	  <list_entry value="carriage" display_value="carriage" ru.display_value="повозка" be.display_value="фурманка" uk.display_value="візок" de.display_value="Wagen" fr.display_value="le chariot"/>
+	  <list_entry value="crane" display_value="crane" ru.display_value="кран" be.display_value="кран" uk.display_value="кран" de.display_value="Kran" fr.display_value="grue"/>
+	  <list_entry value="bike" display_value="bike" ru.display_value="велосипед" be.display_value="ровар" uk.display_value="велосипед" de.display_value="Fahrrad" fr.display_value="bicyclette"/>
+	  <list_entry value="mototechnics" display_value="mototechnics" ru.display_value="мототехника" be.display_value="мотатэхніка" uk.display_value="мототехніка" de.display_value="Mototechnik" fr.display_value="mototechnique"/>
+	  <list_entry value="car" display_value="car" ru.display_value="автомобиль" be.display_value="аўтамабіль" uk.display_value="автомобіль" de.display_value="Wagen" fr.display_value="auto"/>
+	  <list_entry value="cannon" display_value="cannon" ru.display_value="пушка" be.display_value="гармата" uk.display_value="гармата" de.display_value="Kanone" fr.display_value="Canon (artillerie)"/>
+	  <list_entry value="tank" display_value="tank" ru.display_value="танк" be.display_value="танк" uk.display_value="танк" de.display_value="Panzer" fr.display_value="Char de combat"/>
+	  <list_entry value="locomotive" display_value="locomotive" ru.display_value="локомотив" be.display_value="лакаматыў" uk.display_value="локомотив" de.display_value="Lokomotive" fr.display_value="Locomotive"/>
+	  <list_entry value="ship" display_value="ship" ru.display_value="судно" be.display_value="судна" uk.display_value="судно" de.display_value="Schiff" fr.display_value="bateau (navire)"/>
+	  <list_entry value="wreck" display_value="wreck" ru.display_value="затонувшее судно" be.display_value="патанулае судна" uk.display_value="затонуле судно" de.display_value="gesunkenes Schiff" fr.display_value="navire coulé"/>
+	  <list_entry value="aircraft" display_value="aircraft" ru.display_value="самолёт" be.display_value="самалёт" uk.display_value="літак" de.display_value="Flugzeug" fr.display_value="Avion"/>
+	  <list_entry value="rocket" display_value="rocket" ru.display_value="ракета" be.display_value="ракета" uk.display_value="ракета" de.display_value="Rakete" fr.display_value="grue"/>
+	  <list_entry value="Space_Shuttle" display_value="Space Shuttle" ru.display_value="Спейс шаттл(шаттл)" be.display_value="Спейс шатл (шатл)" uk.display_value="Спейс шаттл(шаттл)" de.display_value="Space Shuttle (Shuttle)" fr.display_value="Navette spatiale"/> 
+	  </combo>
+	  <combo key="vehicle_type" text="vehicle type" ru.text="тип техники" be.text="тып тэхнікі" uk.text="тип техніки" de.text="Fahrzeugtyp" fr.text="Type de véhicule" match="key">
+	  <list_entry value="underground" display_value="underground" ru.display_value="подземная" be.display_value="падземная" uk.display_value="підземна" de.display_value="unter Tage" fr.display_value="sous la terre"/>
+	  <list_entry value="ground" display_value="ground" ru.display_value="наземная" be.display_value="наземная" uk.display_value="наземна" de.display_value="Boden" fr.display_value="sol"/>
+	  <list_entry value="air" display_value="air" ru.display_value="воздушная" be.display_value="паветраная" uk.display_value="повітряна" de.display_value="Luft" fr.display_value="air"/>
+	  <list_entry value="space" display_value="space" ru.display_value="космическая" be.display_value="касмічная" uk.display_value="космічна" de.display_value="Raum" fr.display_value="espacer"/>
+	  <list_entry value="underwater" display_value="underwater" ru.display_value="подводная" be.display_value="падводная" uk.display_value="підводний" de.display_value="unter Wasser" fr.display_value="sous-marin"/>
+	  <list_entry value="water" display_value="water" ru.display_value="водная" be.display_value="водная" uk.display_value="водна" de.display_value="Wasser" fr.display_value="l'eau"/>
+	  <list_entry value="amphibian" display_value="amphibian" ru.display_value="амфибия" be.display_value="амфібія" uk.display_value="амфібія" de.display_value="Amphibie" fr.display_value="amphibie"/>
+	  <list_entry value="earth_air" display_value="earth_air" ru.display_value="земля и воздух" be.display_value="зямля і паветра" uk.display_value="земля і повітря" de.display_value="Erde und Luft" fr.display_value="terre et air"/>
+	  </combo>
+	  <combo key="purpose_of_equipment" text="purpose of equipment" ru.text="назначение техники" be.text="прызначэнне тэхнікі" uk.text="призначення техніки" de.text="Zweck der Ausrüstung" fr.text="but de l'équipement" match="key">
+	  <list_entry value="purpose_of_equipment" display_value="purpose of equipment" ru.display_value="общего назначения" be.display_value="агульнага прызначэння" uk.display_value="загального призначення" de.display_value="allgemeiner Zweck" fr.display_value="usage général"/>
+	  <list_entry value="military" display_value="military" ru.display_value="военная" be.display_value="ваенная" uk.display_value="військова" de.display_value="militärisch" fr.display_value="militaire"/>
+	  <list_entry value="civil" display_value="civil" ru.display_value="гражданская" be.display_value="грамадзянская" uk.display_value="громадянська" de.display_value="bürgerlich" fr.display_value="civil"/>
+	  <list_entry value="special_purpose" display_value="special purpose" ru.display_value="специального назначения" be.display_value="спецыяльнага прызначэння" uk.display_value="спеціального призначення" de.display_value="besonderer Zweck" fr.display_value="but spécial"/>
+	  </combo>
+	  <space/>
+	  <combo key="cannon:type" text="cannon type" ru.text="тип пушки" be.text="тып гарматыі" uk.text="тип гарматиа" de.text="Waffentyp" fr.text="type de pistolet" match="key">
+	  <list_entry value="cannon" display_value="cannon" ru.display_value="пушка" be.display_value="гармата" uk.display_value="гармата" de.display_value="Kanone" fr.display_value="Canon (artillerie)"/>
+	  <list_entry value="machine_gun" display_value="machine gun" ru.display_value="пулемет" be.display_value="кулямёт" uk.display_value="кулемет" de.display_value="Maschinengewehr" fr.display_value="Mitrailleuse"/>
+	  <list_entry value="experimental" display_value="experimental" ru.display_value="опытный образец или прототип" be.display_value="вопытны ўзор або прататып" uk.display_value="дослідний зразок або прототип" de.display_value="Prototyp oder Prototyp" fr.display_value="prototype ou prototype"/>
+	  <list_entry value="copy" display_value="copy" ru.display_value="копия" be.display_value="копія" uk.display_value="копія" de.display_value="Kopieren" fr.display_value="copie"/>
+	  </combo>
+	  <combo key="car:type" text="type car" ru.text="тип автомобиля" be.text="тып аўтамабіля" uk.text="тип автомобіля" de.text="Auto Typ" fr.text="type de voiture" match="key">
+	  <list_entry value="passenger" display_value="passenger" ru.display_value="легковой" be.display_value="грузавы" uk.display_value="легковий" de.display_value="Passagier" fr.display_value="passager"/>
+	  <list_entry value="freight" display_value="freigh" ru.display_value="грузовой" be.display_value="легкавы" uk.display_value="вантажний" de.display_value="Ladung" fr.display_value="cargaison"/>
+	  <list_entry value="bus" display_value="bus" ru.display_value="автобус" be.display_value="аўтобус" uk.display_value="автобус" de.display_value="Bus" fr.display_value="bus"/>
+	  <list_entry value="trolleybus" display_value="trolleybus" ru.display_value="троллейбус" be.display_value="тралейбус" uk.display_value="тролейбус" de.display_value="Wagen" fr.display_value="trolleybus"/>
+	  <list_entry value="tractor" display_value="tractor" ru.display_value="трактор" be.display_value="трактар" uk.display_value="трактор" de.display_value="Traktor" fr.display_value="tracteur"/>
+	  <list_entry value="combine_harvester" display_value="combine harvester" ru.display_value="комбайн" be.display_value="камбайн" uk.display_value="комбайн" de.display_value="Mähdrescher" fr.display_value="Moissonneuse-batteuse"/>
+	  <list_entry value="experimental" display_value="experimental" ru.display_value="опытный образец или прототип" be.display_value="вопытны ўзор або прататып" uk.display_value="дослідний зразок або прототип" de.display_value="Prototyp oder Prototyp" fr.display_value="prototype ou prototype"/>
+	  <list_entry value="copy" display_value="copy" ru.display_value="копия" be.display_value="копія" uk.display_value="копія" de.display_value="Kopieren" fr.display_value="copie"/>
+	  </combo>
+	  <combo key="locomotive:type" text="type locomotive" ru.text="тип локомотива" be.text="тып лакаматыва" uk.text="тип локомотива" de.text="Lokomotiventyp" fr.text="type de locomotive" match="key">
+	  <list_entry value="steam" display_value="steam" ru.display_value="паровоз" be.display_value="паравоз" uk.display_value="паровоз" de.display_value="Dampflokomotive" fr.display_value="Locomotive à vapeur"/>
+	  <list_entry value="diesel" display_value="diesel" ru.display_value="тепловоз" be.display_value="цеплавоз" uk.display_value="тепловоз" de.display_value="Diesellokomotive" fr.display_value="Locomotive Diesel"/>
+	  <list_entry value="electric" display_value="electric" ru.display_value="электровоз" be.display_value="электравоз" uk.display_value="електровоз" de.display_value="Elektrolokomotive" fr.display_value="Locomotive électrique"/>
+	  <list_entry value="experimental" display_value="experimental" ru.display_value="опытный образец или прототип" be.display_value="вопытны ўзор або прататып" uk.display_value="дослідний зразок або прототип" de.display_value="Prototyp oder Prototyp" fr.display_value="prototype ou prototype"/>
+	  <list_entry value="copy" display_value="copy" ru.display_value="копия" be.display_value="копія" uk.display_value="копія" de.display_value="Kopieren" fr.display_value="copie"/>
+	  </combo>
+	  <combo key="ship:type" text="type ship" ru.text="тип судна" be.text="тып судна" uk.text="тип судна" de.text="Schiffstyp" fr.text="type de navire" match="key">
+	  <list_entry value="aircraft_carrier" ru.display_value="авианосец" be.display_value="авіяносец" uk.display_value="авіаносець" de.display_value="Schlachtschiff" fr.display_value="Porte-avions"/>
+	  <list_entry value="battleship" ru.display_value="линейный корабль" be.display_value="линейный корабль" uk.display_value="лінійний корабель" de.display_value="Kopieren" fr.display_value="Cuirassé"/>
+	  <list_entry value="destroyer" ru.display_value="эскадренный миноносец" be.display_value="эскадраны мінаносец" uk.display_value="ескадрений міноносець" de.display_value="Zerstörer" fr.display_value="Destroyer"/>
+	  <list_entry value="submarine" ru.display_value="подводная лодка" be.display_value="падводная лодка" uk.display_value="підводний човен" de.display_value="U-Boot" fr.display_value="Sous-marin"/>
+	  <list_entry value="light_cruiser" ru.display_value="лёгкий крейсер" be.display_value="лёгкі крэйсер" uk.display_value="лёгкий крейсер" de.display_value="Leichter Kreuzer" fr.display_value="Croiseur léger"/>
+	  <list_entry value="heavy_cruiser" ru.display_value="тяжёлый крейсер" be.display_value="цяжкі крэйсер" uk.display_value="тяжёлый крейсер" de.display_value="Schwerer Kreuzer" fr.display_value="Croiseur lourd"/>
+	  <list_entry value="frigate" ru.display_value="фрегат" be.display_value="фрэгат" uk.display_value="фрегат" de.display_value="Fregatte" fr.display_value="Frégate (navire)"/>
+	  <list_entry value="corvette" ru.display_value="корвет" be.display_value="корвет" uk.display_value="корвет" de.display_value="Korvette" fr.display_value="Corvette (navire)"/>
+	  <list_entry value="ocean_liner" ru.display_value="лайнер (судно)" be.display_value="лайнер (судно)" uk.display_value="лайнер (судно)" de.display_value="Linienschiff (Handelsmarine)" fr.display_value="Paquebot"/>
+	  <list_entry value="lightship" ru.display_value="плавучий маяк" be.display_value="плавучий маяк" uk.display_value="плавучий маяк" de.display_value="Feuerschiff" fr.display_value="Bateau-phare"/>
+	  <list_entry value="icebreaker" ru.display_value="ледокол" be.display_value="ледакол" uk.display_value="криголам" de.display_value="Eisbrecher" fr.display_value="Brise-glace"/>
+	  <list_entry value="tugboat" ru.display_value="буксир" be.display_value="буксір" uk.display_value="буксир" de.display_value="Schlepper (Schiffstyp)" fr.display_value="Remorqueur"/>
+	  <list_entry value="ferry" ru.display_value="паром" be.display_value="паром" uk.display_value="паром" de.display_value="Fähre" fr.display_value="Ferry (bateau)"/>
+	  <list_entry value="research_ship" ru.display_value="научно-исследовательское судно" be.display_value="навукова-даследчае судна" uk.display_value="науково-дослідне судно" de.display_value="Forschungsschiff" fr.display_value="Navire océanographique"/>
+	  <list_entry value="lifeboat" ru.display_value="cпасательное (судно-шлюпка)" be.display_value="Выратавальная шлюпка-судна" uk.display_value="рятувальний (корабель--шлюпка)" de.display_value="Rettungsboot (Einsatzmittel)" fr.display_value="Canot de sauvetage"/>
+	  <list_entry value="cargo_ship" ru.display_value="грузовое судно (сухогруз)" be.display_value="грузавое судна" uk.display_value="вантажне судно" de.display_value="Frachtschiff" fr.display_value="Canot de sauvetage"/>
+	  <list_entry value="fishing_boat" ru.display_value="Рыболовное судно" be.display_value="рыбалоўнае судна" uk.display_value="Риболовецьке судно" de.display_value="Fischerboot" fr.display_value="Navire de pêche"/>
+	  <list_entry value="tanker" ru.display_value="танкер" be.display_value="танкер" uk.display_value="танкер" de.display_value="Tanker" fr.display_value="Navire-citerne"/>
+	  <list_entry value="experimental" display_value="experimental" ru.display_value="опытный образец или прототип" be.display_value="вопытны ўзор або прататып" uk.display_value="дослідний зразок або прототип" de.display_value="Prototyp oder Prototyp" fr.display_value="prototype ou prototype"/>
+	  <list_entry value="copy" display_value="copy" ru.display_value="копия" be.display_value="копія" uk.display_value="копія" de.display_value="Kopieren" fr.display_value="copie"/>
+	  </combo>
+	  <combo key="aircraft:type" text="aircraft type" ru.text="тип самолёта" be.text="тып самалёта" uk.text="тип літака" de.text="Flugzeugtyp" fr.text="type d'aéronef" match="key">
+	  <list_entry value="fixed_wing" display_value="fixed_wing" ru.display_value="Самолет с фиксированным крылом (обычный самолет)" be.display_value="Самалёт з фіксаваным крылом (звычайны самалёт)" uk.display_value="Літак з фіксованим крилом (звичайний літак)" de.display_value="Kopieren" fr.display_value="copie"/>
+	  <list_entry value="helicopter" display_value="helicopter" ru.display_value="вертолет" be.display_value="верталёт" uk.display_value="гвинтокрил" de.display_value="Hubschrauber" fr.display_value="Helicopter"/>
+	  <list_entry value="autogyro" display_value="autogyro" ru.display_value="автожир" be.display_value="Аўтажыр" uk.display_value="автожир" de.display_value="Tragschrauber" fr.display_value="Autogyro"/>
+	  <list_entry value="tiltrotor" display_value="tiltrotor" ru.display_value="Конвертоплан" be.display_value="канвертаплан" uk.display_value="Конвертоплан" de.display_value="Kipprotor" fr.display_value="Tiltrotor"/>
+	  <list_entry value="ekranoplan" display_value="ekranoplan" ru.display_value="Экраноплан" be.display_value="экраноплан" uk.display_value="екраноплан" de.display_value="Ekranoplan" fr.display_value="copie"/>
+	  <list_entry value="airliner" display_value="fighter" ru.display_value="пассажирский самолет" be.display_value="пасажырскі самалёт" uk.display_value="пасажирський літак" de.display_value="Verkehrsflugzeug" fr.display_value="Avion de ligne"/>
+	  <list_entry value="fighter" display_value="fixed_wing" ru.display_value="истребитель" be.display_value="знішчальнік" uk.display_value="винищувач" de.display_value="Jagdflugzeug" fr.display_value="Avion de chasse"/>
+	  <list_entry value="bomber" display_value="bomber" ru.display_value="бомбардировщик" be.display_value="Бамбардзіроўшчык" uk.display_value="бомбардувальник" de.display_value="Bomber" fr.display_value="Bombardier (avion)"/>
+	  <list_entry value="transport" display_value="transport" ru.display_value="транспортный самолет" be.display_value="транспартны самалёт" uk.display_value="транспортний літак" de.display_value="Transportflugzeug" fr.display_value="Avion de transport"/>
+	  <list_entry value="reconnaissance" display_value="reconnaissance" ru.display_value="самолет-разведчик" be.display_value="самалёт-разведчык" uk.display_value="літак-розвідник" de.display_value="Aufklärungsflugzeug" fr.display_value="Avion de reconnaissance"/>
+	  <list_entry value="experimental" display_value="experimental" ru.display_value="опытный образец или прототип" be.display_value="вопытны ўзор або прататып" uk.display_value="дослідний зразок або прототип" de.display_value="Prototyp oder Prototyp" fr.display_value="prototype ou prototype"/>
+	  <list_entry value="copy" display_value="copy" ru.display_value="копия" be.display_value="копія" uk.display_value="копія" de.display_value="Kopieren" fr.display_value="copie"/>
+	  </combo>
+	  <space/>
+	  <text key="name" text="name" ru.text="Название" be.text="Назва" uk.text="Назва" de.text="Name" fr.text="Nom" match="key"/>
+	  <text key="mechanism:model" text="model" ru.text="Модель" be.text="Мадэль" uk.text="Модель" de.text="Modell" fr.text="Modèle" match="key"/>
+	  <text key="ref:board" text="Board number" ru.text="Бортовой номер" be.text="бартавы нумар" uk.text="Бортовий номер" de.text="Board Nummer" fr.text="Numéro de carte" match="key"/>
+	  <text key="manufacture_date" text="date of manufacture" ru.text="Дата производства" be.text="дата вытворчасці" uk.text="дата виробництва" de.text="Herstellungsdatum" fr.text="date de fabrication" match="key"/>
+	  <text key="constructor" text="Constructor" ru.text="Конструктор" be.text="канструктар" uk.text="конструктор" de.text="Konstrukteur" fr.text="Constructeur" match="key"/>
+	  <text key="mechanism:manufacturer" text="Equipment manufacturer plant" ru.text="Завод изготовитель техники" be.text="Завод вытворца тэхнікі" uk.text="Завод виробник техніки" de.text="Anlagenhersteller Anlage" fr.text="Usine de fabrication d'équipement" match="key"/>
+	  <text key="brand" text="brand" ru.text="Бренд" match="key"/>
+	  <check key="memorial" value="war_memorial" text="war memorial" ru.text="военный мемориал" be.text="ваенны мемарыял" uk.text="військовий меморіал" de.text="Kriegsdenkmal" fr.text="Monument commémoratif de guerre"/>
+	  <text key="monument_date" text="The date of the official opening of the monument (format YYYY-MM-DD.)" ru.text="Дата официального открытия памятника (формат ГГГГ-ММ-ДД.)" be.text="Дата афіцыйнага адкрыцця помніка (фармат ГГГГ-ММ-ДД.)" uk.text="військовий меморіал" de.text="Das Datum der offiziellen Eröffnung des Denkmals (Format JJJJ-MM-TT.)" fr.text="La date de l'ouverture officielle du monument (format AAAA-MM-JJ.)" match="key"/>
+	  <text key="inscription" text="inscription on the memorial site" ru.text="надпись на мемориальном объекте" be.text="надпіс на мемарыяльным аб'екце" uk.text="напис на меморіальному об'єкті" de.text="Inschrift auf der Gedenkstätte" fr.text="inscription sur le site commémoratif" match="key"/>
+	  <text key="memorial:conflict" text="the name of the military conflict to which the monument is dedicated" ru.text="название военного конфликта, которому посвящен памятник" be.text="назву ваеннага канфлікту, якому прысвечаны помнік" uk.text="назва військового конфлікту, якому присвячено пам'ятник" de.text="der Name des militärischen Konflikts, dem das Denkmal gewidmet ist" fr.text="le nom du conflit militaire auquel le monument est dédié" match="key"/>
+	  <combo key="heritage" text="historical or cultural heritage site" ru.text="объекта исторического или культурного наследия" be.text="аб'екта гістарычнага або культурнай спадчыны" uk.text="об'єкт історичного або культурної спадщини" de.text="Gegenstand des historischen oder kulturellen Erbes" fr.text="objet du patrimoine historique ou culturel" match="key">
+	  <list_entry value="yes" display_value="yes" ru.display_value="да"/>
+	  <list_entry value="1"/>
+	  <list_entry value="2"/>
+	  <list_entry value="3"/>
+	  <list_entry value="4"/>
+	  <list_entry value="5"/>
+	  <list_entry value="6"/>
+	  </combo>
+	  <space/>	  
+	  <text key="operator" text="Organization servicing equipment" ru.text="Организация, обслуживающая технику" be.text="Арганізацыя, якая абслугоўвае тэхніку" uk.text="Організація, яка обслуговує техніку" de.text="Organisationswartungsausrüstung" fr.text="Équipement d'entretien de l'organisation" match="key"/>
+	  <text key="wikipedia" text="wikipedia" match="key"/>
+	  <text key="wikidata" text="wikidata" match="key"/>
+	  <space/>
+	  <text key="description" text="brief information about the object (for the user or the system)" ru.text="краткая информация об объекте (для пользователя или системы)" be.text="кароткая інфармацыя аб аб'екце (для карыстальніка або сістэмы)" uk.text="коротка інформація про об'єкт (для користувача або системи)" de.text="kurze Informationen über das Objekt (für den Benutzer oder das System)" fr.text="brèves informations sur l'objet (pour l'utilisateur ou le système)" match="key"/>
+	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор" be.text="кантакты Аўтар" uk.text="контакти Автор" de.text="kontaktiert Autor"/>
+	  <link href="https://github.com/Sowa1980/Start_Data_preset" text="github" ru.text="github"/>
+    </item>
+  </group>
+</presets> 
+
