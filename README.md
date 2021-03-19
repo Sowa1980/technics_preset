@@ -13,4 +13,4 @@
 - OSM сообществу в целом.
 #### Пожелания и замечания можно оставить:
 - в чате [OSM телеграмм](https://t.me/OSM_BelRusUkr) 
-- на странице OSM [в моем дневнике](https://www.openstreetmap.org/user/Sowa1980)
+- на странице OSM [в моем дневнике](https://www.openstreetmap.org/user/Sowa1980/diary/396175)
