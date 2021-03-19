@@ -1,4 +1,4 @@
-# ![icon](https://github.com/Sowa1980/Start_Data_preset/blob/master/Data32.png) Памятники машиностроения
+# ![icon](https://github.com/Sowa1980/technics_preset/blob/master/technique_1.svg) Памятники машиностроения
 Набор заготовок тегов для [JOSM](https://josm.openstreetmap.de/), Служит для внесения памятников машиностроения.  [Посмотреть заготовку](https://github.com/Sowa1980/technics_preset/blob/master/technics.png) 
 ### Основана на [OSM вики]( https://wiki.openstreetmap.org/wiki/Main_Page)  страницах: [1](https://wiki.openstreetmap.org/wiki/RU:Tag:historic%3Dcannon) , [2](https://wiki.openstreetmap.org/wiki/RU:Tag:historic%3Dtank) , [3](https://wiki.openstreetmap.org/wiki/RU:Tag:historic%3Dlocomotive) , [4](https://wiki.openstreetmap.org/wiki/RU:Tag:historic%3Dship) , [5](https://wiki.openstreetmap.org/wiki/RU:Tag:historic%3Daircraft), [6](https://wiki.openstreetmap.org/wiki/Key:heritage), [7](https://wiki.openstreetmap.org/wiki/RU:Tag:historic%3Dmemorial) и часто используемых тегов в OSM сообществе.
 ### Языки локализации: 
