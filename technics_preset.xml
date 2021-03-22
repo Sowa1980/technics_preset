@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="Панкратов Александр Владимирович Sowa1980 https://www.openstreetmap.org/user/Sowa1980"
-  link="https://wiki.openstreetmap.org/wiki/RU:Key:start_date https://wiki.openstreetmap.org/wiki/RU:Key:opening_date https://wiki.openstreetmap.org/wiki/RU:Key:check_date https://wiki.openstreetmap.org/wiki/RU:Key:building:architecture https://wiki.openstreetmap.org/wiki/RU%3AKey%3Abuilding%3Acondition"
+  link=""
   icon="technique.svg"
   
   description="Serves for the introduction of monuments to mechanical engineering"
