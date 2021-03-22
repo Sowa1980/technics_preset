@@ -149,7 +149,7 @@
 	  <space/>
 	  <text key="description" text="brief information about the object (for the user or the system)" ru.text="краткая информация об объекте (для пользователя или системы)" be.text="кароткая інфармацыя аб аб'екце (для карыстальніка або сістэмы)" uk.text="коротка інформація про об'єкт (для користувача або системи)" de.text="kurze Informationen über das Objekt (für den Benutzer oder das System)" fr.text="brèves informations sur l'objet (pour l'utilisateur ou le système)" match="key"/>
 	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор" be.text="кантакты Аўтар" uk.text="контакти Автор" de.text="kontaktiert Autor"/>
-	  <link href="https://github.com/Sowa1980/Start_Data_preset" text="github" ru.text="github"/>
+	  <link href="https://github.com/Sowa1980/technics_preset" text="github" ru.text="github"/>
     </item>
   </group>
 </presets> 
