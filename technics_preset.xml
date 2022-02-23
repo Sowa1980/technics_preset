@@ -23,10 +23,10 @@
   fr.shortdescription="Monuments de génie mécanique"
   
   
-  version="0.1_2021-03-23">
+  version="0.2_2022-03-23">
                     
  <group name="Monuments" ru.name="Памятники" be.name="Помнікі" uk.name="пам'ятники" de.name="Monumente" fr.name="Les monuments" >
-    <item name="Monument to mechanical engineering" ru.name="Памятник машиностроения" uk.name="пам'ятник машинобудування" de.name="Denkmal für den Maschinenbau" fr.name="Monuments de génie mécanique" preset_name_label="true" type="node,multipolygon,relation,relation types" icon="technique.svg">
+    <item name="Monument to mechanical engineering" ru.name="Памятник машиностроения" uk.name="пам'ятник машинобудування" de.name="Denkmal für den Maschinenbau" fr.name="Monuments de génie mécanique" preset_name_label="true" type="node,multipolygon,relation,relation types,closedway" icon="technique.svg">
 	  <space/>
 	  <check key="tourism" value="attraction" ru.text="Достопримечательность" be.text="Славутасць" uk.text="Достопримечательность" de.text="Sicht" fr.text="Vue"/>
 	  <check key="mechanism" value="yes" ru.text="Техника - да" be.text="Тэхніка" uk.text="Техніка - так" de.name="Technik - ja" fr.name="Technique - oui"/>
